@@ -3,7 +3,7 @@ import MySQLdb
 myDB = MySQLdb.connect(host="xxx.xx.x.xxx",
                        port = 3306,
                        user="tolu",
-                       passwd = "12345",
+                       passwd = "xxxxx",
                        db = "servel")
 cHandler = myDB.cursor()
 cHandler.execute("SHOW DATABASES")
